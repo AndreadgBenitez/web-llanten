@@ -60,7 +60,7 @@ h1, h2, h3 {
 
 /*Banner principal*/
 .hero {
-    background-image: url(../imgproyecto/pruebabanner.jpg);
+    background-image: url(imgproyecto/pruebabanner.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -193,6 +193,13 @@ h1, h2, h3 {
       text-align: center;
       pointer-events: none;
     }
+    .producto img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
   
   footer {
     background-color: #5e3476;
