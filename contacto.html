@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+</head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<body>
+
+  <header>
+    <div class="top-bar">
+      <div class="logo">
+        <img src="imgproyecto/logo.png" alt="Logo">
+      </div>
+      <form class="search-form" action="#" method="get">
+        <input type="text" placeholder="Buscar..." name="buscador" />
+        <button type="submit">Buscar</button>
+      </form>
+      <div class="account-buttons">
+        <button>Crear cuenta</button>
+        <button>Ingresar</button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index1.html">Inicio</a></li>
+      <li><a href="productos.html">Productos</a></li>
+      <li><a href="preguntas.html">Preguntas frecuentes</a></li>
+      <li><a href="nosotros.html">Quiénes somos</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h1>Contáctanos</h1>
+      <p>Podés escribirnos por WhatsApp, Instagram o por este formulario.</p>
+    </section>
+    <section class="contacto-ubicacion">
+  <section class="contacto-ubicacion">
+  <h2>¿Dónde estamos?</h2>
+  <p>Te esperamos en nuestra tienda para que vivas la experiencia Llanten 🌿</p>
+
+  <div class="mapa">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.005220098697!2d-68.11219039060322!3d-38.969548800852394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a32e2855e0769%3A0x37faaef3851e4b04!2sEntretintas%20taller%20gr%C3%A1fico%20%2Fserigrafia!5e0!3m2!1ses-419!2sar!4v1752748403820!5m2!1ses-419!2sar"
+      width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <p><strong>Dirección:</strong> Golondrinas 1409 - Neuquén capital (CP 8300)</p>
+</section>
+
+
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <section class="contacto-formulario">
+      <h2>Formulario de contacto</h2>
+      <form id="formulario-contacto">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="form-group">
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" name="correo" required>
+        </div>
+
+        <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </section>
+    
+  </main>
+
+  <footer>
+  <div class="footer-grid">
+    <!-- Bloque: Redes sociales -->
+    <div class="footer-section">
+      <h3>Nuestras redes</h3>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/tuusuario" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/tuusuario" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@tuusuario" target="_blank"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+
+    <!-- Bloque: Medios de pago -->
+    <div class="footer-section">
+      <h3>Medios de pago</h3>
+      <p>Tarjetas | Transferencia | Efectivo</p>
+    </div>
+
+    <!-- Bloque: Formas de envío -->
+    <div class="footer-section">
+      <h3>Formas de envío</h3>
+      <p>Correo Argentino | Retiro en tienda</p>
+    </div>
+
+    <!-- Bloque: Navegación -->
+    <div class="footer-section">
+      <h3>Navegación</h3>
+      <p>Inicio | Productos | Contacto</p>
+    </div>
+
+    <!-- Bloque: Seguridad -->
+    <div class="footer-section">
+      <h3>Seguridad y certificaciones</h3>
+      <p>SSL | Protección de datos</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Franja final: Desarrollador -->
+<div class="footer-bottom">
+  <p>Sitio web desarrollado por Andrea Benitez</p>
+</div>
+
+  </footer>
+  
+
+  <!-- MODAL -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <h2>¡Gracias!</h2>
+      <p>Pronto recibirás nuestra respuesta 🌿</p>
+      <button id="cerrarModal">Aceptar</button>
+    </div>
+  </div>
+  <a href="https://wa.me/5491123456789?text=Hola%20Llanten!%20Estoy%20interesado%20en%20sus%20productos" class="whatsapp-float" target="_blank">
+  <img src="imgproyecto/—Pngtree—whatsapp icon whatsapp logo_3584844.png" alt="WhatsApp" />
+</a>
+
+  <!-- SCRIPT JS -->
+  <script src="llanten.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "productos": [
+    {
+      "id": "vela1",
+      "nombre": "Vela Aromática",
+      "precio": 4500,
+      "descripcion": "Vela de soja con aceites esenciales.",
+      "imagen": "imgproyecto/vela1.jpg",
+      "detalle": "velas.html"
+    },
+    {
+      "id": "aceite1",
+      "nombre": "Aceite Esencial",
+      "precio": 3500,
+      "descripcion": "Aceite puro para masajes.",
+      "imagen": "imgproyecto/aceite1.jpg",
+      "detalle": "#"
+    },
+    {
+      "id": "kitspa",
+      "nombre": "Kit Spa",
+      "precio": 5500,
+      "descripcion": "Kit completo para tu momento de relax.",
+      "imagen": "imgproyecto/kitspa.jpg",
+      "detalle": "#"
+    }
+  ]
+}

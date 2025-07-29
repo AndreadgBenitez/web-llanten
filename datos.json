@@ -1,0 +1,8 @@
+{
+  "empresa": "Llanten",
+  "direccion": "Golondrinas 1409 - Neuquén",
+  "redes": [
+    { "nombre": "Instagram", "url": "https://www.instagram.com/tuusuario" },
+    { "nombre": "Facebook", "url": "https://www.facebook.com/tuusuario" }
+  ]
+}
